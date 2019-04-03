@@ -4,8 +4,70 @@
         <link rel="stylesheet" type="text/css" media="screen" href="../bootstrap.min.css">
 <title> profile</title>    </head>
 <body>
-<body background="../image/9257fb3cf459c0d.jpg"><center><img src="../image/logo-ex-3.png"></center><br/> 
+<body background="../image/Nbi7bYI.jpg"><center><img src="../image/logo-ex-3.png"></center><br/> 
     <center><a href="connexion.html"></a><button type="button" class="btn btn-secondary btn-sm">DEConnexion </a></button>
     <a href="home.html"> <button type="button" class="btn btn-secondary btn-sm">Accueil</button></center>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+              <label for="validationDefault01"style="color:blue">First name</label>
+              <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Mark" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationDefault02"style="color:blue">Last name</label>
+              <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Otto" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationDefaultUsername"style="color:blue">Username</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                </div>
+                <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationDefault03"style="color:blue">City</label>
+              <input type="text" class="form-control" id="validationDefault03" placeholder="your city .." required>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationDefault04"style="color:blue">Birth date</label>
+              <input type="date" class="form-control" id="validationDefault04"  required>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationDefault05" style="color:blue">password</label>
+              <input type="text" class="form-control" id="validationDefault05" placeholder="**********" required>
+            </div> 
+                <div class="col-md-3 mb-3">
+                  <label for="validationDefault03"style="color:blue"> 
+                    confirm your password</label>
+                  <input type="text" class="form-control" id="validationDefault03" placeholder="*********" required>
+                </div>
+          </div>
+          
+        </div> 
+        <div class="form-check"> <p style="color : blue"> Interet : </p>
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1" style="color : blue">
+              Sport
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2" style="color : blue">
+              Music
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+            <label class="form-check-label" for="exampleRadios3" style="color : blue">
+              Dance
+            </label>
+          </div> 
+          <center> <button class="btn btn-primary" type="submit">envoyer</button><button class="btn btn-primary" type="reset">annuler</button></center> 
+    
+    
+    </form>
 </body>
 </html>
